@@ -147,7 +147,7 @@ if __name__ == "__main__":
             dsspFlag = True
             dsspPath=args.dssp
         else:
-            errors.append("Error: Path {0} for PDB file does not exist.".format(dsspPath))
+            errors.append("Error: Path {0} for DSSP file does not exist.".format(dsspPath))
     
     if(len(errors)>0):
         print("\n".join(errors)+"\nExiting program.")
